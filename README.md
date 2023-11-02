@@ -1,46 +1,39 @@
-# Getting Started with Create React App
+## 크립토 트래커
+크립토 트래커를 구현한 프로젝트 입니다.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+https://crypto-tracker-l0vreom30-parkseokjins-projects.vercel.app/
+<br/>
 
-## Available Scripts
+📅 기간 : 2023. 10. 10 ~ 2023. 10. 13
 
-In the project directory, you can run:
+<br/>
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+<br/>
 
-### `npm test`
+📌 Point
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* npm install --save react-apexcharts apexcharts(차트 부분 ) 사용
+* React Query를 사용하는 이유
 
-### `npm run build`
+react query는 데이터를 캐시에 저장해둔다.
+리엑트 쿼리는 데이터를 파괴하지 않는다.
+리엑트 쿼리는 데이터를 유지한다.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+react query는 reponse를 caching 하고 있다. api로 부터 response를 받고 있어서
+우리가 화면을 바꿧다가 돌아오더라도 react query는 우리가 원하는 data가 이미
+캐시(cache)에 있다는 것을 알고있다. 그래서 리엑트 쿼리는 api에 접근하지 않음
+이게 리엑트쿼리를 사용하느냐 안하느냐의 아주 큰 차이다.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+* 왜 state management가 왜 필요한지 recoil
+ https://blog.naver.com/skatksdml1/223242059648
+  
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<br/>
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).

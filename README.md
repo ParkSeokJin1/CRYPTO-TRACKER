@@ -1,7 +1,10 @@
-## 크립토 트래커
-크립토 트래커를 구현한 프로젝트 입니다.
+## 암호화폐 시세 트래커
+
+이 프로젝트에서는 React Query 를 이용하여 Crypto Price API 의 데이터를 가져오는 것을 배웠고, 또한 Styled Components 를 이용해 확장 가능한 디자인 시스템 그리고 다크모드 등을 만드는 방법을 배웁니다. 
+마지막으로 Apex Charts 를 활용하여 암호화폐 시세 변화 데이터를 시각화 하는 방법을 구현했습니다.
 
 https://crypto-tracker-l0vreom30-parkseokjins-projects.vercel.app/
+
 <br/>
 
 📅 기간 : 2023. 10. 10 ~ 2023. 10. 13
@@ -9,10 +12,18 @@ https://crypto-tracker-l0vreom30-parkseokjins-projects.vercel.app/
 <br/>
 
 
+## 구현 기능
+
+- [x] Data Fetching
+- [x] Data Visualization
+- [x] Routing
+- [x] Dark Mode
+
 
 <br/>
 
 📌 Point
+
 
 * npm install --save react-apexcharts apexcharts(차트 부분 ) 사용
 * React Query를 사용하는 이유

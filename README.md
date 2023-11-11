@@ -14,12 +14,10 @@ https://crypto-tracker-l0vreom30-parkseokjins-projects.vercel.app/
 
 ## 구현 기능 
 
-
-
--✔ Data Fetching
-✔ Data Visualization
- ✔ Routing
- ✔ Dark Mode
+✔  Data Fetching
+✔  Data Visualization
+✔  Routing
+✔  Dark Mode
 
 
 <br/>

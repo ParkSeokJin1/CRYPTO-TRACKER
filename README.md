@@ -14,16 +14,19 @@ https://crypto-tracker-l0vreom30-parkseokjins-projects.vercel.app/
 
 ## 구현 기능 
 
-✔  Data Fetching
-✔  Data Visualization
-✔  Routing
-✔  Dark Mode
+✔ Data Fetching
+
+✔ Data Visualization
+
+✔ Routing
+
+✔ Dark Mode
 
 
 <br/>
 
-📌 Point
 
+📌 Point
 
 * npm install --save react-apexcharts apexcharts(차트 부분 ) 사용
 * React Query를 사용하는 이유
